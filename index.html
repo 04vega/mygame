@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    	<title></title>
+  	</head>
+ 	<body>
+    <div class="igra">
+        <div class="menyshka3 col-12 text-white" style="background-color: black; height: 50px;">
+            <h1 class="text-center">У тебя: <span class="vremya3">20</span> секунд</h1>
+        </div>
+        <div class="menyshka col-12 text-white" style="height: 50px; background-color: black;">
+            <h1>ТЫ опоздаешь! <span class="vremya">60</span> секунд</h1>
+        </div>
+        <div class="menyshka2 col-12 text-white" style="height: 50px; background-color: black;">
+            <h1>ТЫ НЕ ВОЙДЕШЬЬЬ!!! <span class="vremya2">15</span> секунд</h1>
+        </div>
+        <div class="meny1 bg-dark">   <!--meny-->
+            <div class="col-4 mx-auto bg-danger" style="height: 760px;">
+                <h1 class="text-center pt-5">MENU</h1>
+                <h2>Выберите время года</h2>
+                <h3 class="clicker">Зима</h3>   <!--[0]-->
+            </div>
+        </div>
+        <div class="meny2 bg-dark">    <!--meny-->
+            <div class="col-4 mx-auto bg-danger" style="height: 760px;">
+                <h2>Выберите погоду</h2>
+                <h3 class="clicker">Суровая</h3>    <!--[1]-->  
+            </div>  
+        </div>
+        <div class="home" style="background-image: url(img/2.jpg); background-size: 100% 100%; height: 760px;">    <!--home-->
+            <img src="img/3.jpg" class="clicker" style="position: absolute; margin-left: 43%; margin-top: 12%; width: 200px; background-color: black">      <!--[2]-->
+            <img src="img/7-removebg.png" class="clicker" style="position: absolute; margin-left: 2%; margin-top: 23%; width: 600px;">      <!--[3]-->
+            <img src="img/4.jpg" class="clicker" style="position: absolute; margin-left: 84%; margin-top: 16%; width: 180px;">      <!--[4]-->
+            <img src="img/5-removebg.png" class="clicker" style="position: absolute; margin-left: 55%; margin-top: 15%; width: 400px;">     <!--[5]-->
+        </div>
+        <div class="vibor" style="height: 760px;">
+            <div class="col-10 mx-auto pt-5">
+                <h2>Выбери одно из двух</h2>
+                <div class="pl-4 clicker border p-3">   <!--[6]-->
+                    попросить у мамы деньги на проезд
+                </div>
+                <div class="pl-4 clicker border p-3">   <!--[7]-->
+                    попросить у папы подвезти
+                </div>
+            </div>
+        </div>
+        <div class="buthroom" style="background-image: url(img/6.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/10-removebg.png" class="clicker" style="position: absolute; width: 500px; margin-left: 62%; margin-top: 25%;">    <!--[8]-->
+            <img src="img/9-removebg.png" class="clicker" style="position: absolute; width: 500px; margin-left: 40%; margin-top: 19%;">     <!--[9]-->
+            <button class="back">back</button>     <!--[b0]-->
+        </div>
+        <div class="rakovina" style="background-image: url(img/10.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/13-removebg.png" class="clicker" style="position: absolute; width: 250px; margin-left: 65%; margin-top: 3%;">     <!--[10]-->
+            <img src="img/14-removebg.png" class="clicker" style="position: absolute; width: 150px; margin-left: 38%; margin-top: 9%;">     <!--[11]-->
+            <img src="img/15-removebg.png" class="clicker" style="position: absolute; width: 300px; margin-left: 3%; margin-top: 3%;">      <!--[12]-->
+            <img src="img/16.png" class="" style="position: absolute; width: 250px; margin-left: 50%; margin-top: 5%;">     
+            <img src="img/17-removebg.png" class="" style="position: absolute; width: 200px; margin-left: 44%; margin-top: 12%;">   
+            <button class="back">back</button>     <!--[b1]-->
+        </div>
+        <div class="shkaf" style="background-image: url(img/18.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/19-removebg.png" class="clicker" style="position: absolute; width: 600px; margin-left: 38%; margin-top: 17%;">   <!--[13]-->
+            <img src="img/20-removebg.png" class="clicker" style="position: absolute; width: 150px; margin-left: 35%; margin-top: 16%;">   <!--[14]-->
+            <img src="img/21-removebg.png" class="clicker" style="position: absolute; width: 150px; margin-left: 35%; margin-top: 40%;">   <!--[15]-->
+            <img src="img/22-removebg.png" class="clicker" style="position: absolute; width: 150px; margin-left: 35%; margin-top: 25%;">   <!--[16]-->
+            <button class="back">back</button>     <!--[b2]-->  
+        </div>
+        <div class="dvor" style="background-image: url(img/23.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/24-removebg.png" class="clicker" style="position: absolute; width: 200px; margin-left: 20%; margin-top: 29%;">    <!--[17]-->
+            <img src="img/25.png" class="clicker" style="position: absolute; width: 100px; margin-left: 32%; margin-top: 35%;">     <!--[18]-->
+        </div> 
+        <div class="street" style="background-image: url(img/27.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/28-removebg.png" class="clicker" style="position: absolute; width: 300px; margin-left: 0%; margin-top: 18%;">     <!--[19]-->
+            <img src="img/49.jpg" class="clicker" style="position: absolute; width: 300px; margin-left: 75%; margin-top: 18%;">     <!--[20]-->
+            <img src="img/54.png" class="clicker" style="position: absolute; width: 300px; margin-left: 40%; margin-top: 17%;">     <!--[21]-->
+            <h1 style="position: absolute; margin-left: 85%; margin-top: 35%;" class="clicker">ТЫ</h1>      <!--[22]-->
+        </div>
+        <div class="lift" style="background-image: url(img/29.png); background-size: 100% 100%; height: 760px;">
+            <button class="clicker" style="position: absolute; margin-left: 84%; margin-top: 22%">СЮДА</button>     <!--[23]-->
+            <button class="clicker" style="position: absolute; margin-left: 48%; margin-top: 22%">ТУДА</button>     <!--[24]-->
+            <button class="clicker" style="position: absolute; margin-left: 11%; margin-top: 22%">КУДА ТО</button>      <!--[25]-->
+        </div>
+        <div class="rooma" style="background-image: url(img/30.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/39.png" class="clicker" style="position: absolute; width: 100px; margin-left: 25%; margin-top: 20%;">     <!--[26]-->
+            <img src="img/38-removebg.png" class="clicker" style="position: absolute; width: 100px; margin-left: 70%; margin-top: 18%;">    <!--[27]-->
+            <img src="img/34-removebg.png" class="clicker" style="position: absolute; width: 80px; margin-left: 82%; margin-top: 15%;">     <!--[28]n-->
+        </div>
+        <div class="dver" style="height: 760px; background-image: url(img/36.jpg); background-size: 100% 100%;">
+            <img src="img/35-removebg.png" class="clicker" style="position: absolute; margin-left: 30%; margin-top: 10%; height: 500px;">   <!--[29]-->
+        </div>
+        <div class="dver2" style="height: 760px; background-image: url(img/41.jpg); background-size: 100% 100%;">
+            <img src="img/40-removebg.png" class="clicker" style="position: absolute; margin-left: 40%; margin-top: 8%; height: 500px;">    <!--[30]-->
+        </div>
+        <div class="buthroom2" style="background-image: url(img/6.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/10-removebg.png" class="clicker" style="position: absolute; width: 500px; margin-left: 62%; margin-top: 25%;">    <!--[31]n-->
+            <img src="img/9-removebg.png" class="clicker" style="position: absolute; width: 500px; margin-left: 40%; margin-top: 19%;">     <!--[32]n-->
+            <button class="back">back</button>      <!--[b3]-->  
+        </div>
+        <div class="classroom" style="background-image: url(img/42.jpg); background-size: 100% 100%; height: 760px;">
+            <h1 class="text-center pt-5">Компухтеров открыто: <span class="score">0</span>/8</h1>
+            <div class="container" style="">
+                <div class="row">
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/44-removebg.png" class="close_noyt w-100" style="position: absolute;">
+                        <img src="img/45-removebg.png" class="little_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/46-removebg.png" class="sredni_noyt w-100" style="position: absolute; display: none;">
+                        <img src="img/47-removebg.png" class="open_noyt w-100" style="position: absolute; display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="game" style="background-image: url(img/42.jpg); background-size: 100% 100%; height: 760px;">
+            <h1 class="text-center">Сайтов сделано: <span class="points">0</span>/10</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                    <div class="col-3 border" style="background-image: url(img/48.jpg); height: 300px; width: 300px;">
+                        <img src="img/47-removebg.png" class="noyt w-100" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="exit" style="background-image: url(img/31.jpg); background-size: 100% 100%; height: 760px;">
+            <button class="clicker" style="position: absolute; margin-left: 85%; margin-top: 22%;">СЮДА</button>    <!--[33]-->
+            <button class="clicker" style="position: absolute; margin-left: 20%; margin-top: 20%;">ТУДА</button>    <!--[34]-->
+            <button class="clicker" style="position: absolute; margin-left: 47%; margin-top: 20%;">СДЕСЬ</button>   <!--[35]-->
+        </div>
+        <div class="street2" style="background-image: url(img/27.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/28-removebg.png" class="clicker" style="position: absolute; width: 300px; margin-left: 0%; margin-top: 18%;">     <!--[36]-->
+            <img src="img/49.jpg" class="clicker" style="position: absolute; width: 300px; margin-left: 75%; margin-top: 18%;">     <!--[37]-->
+            <img src="img/54.png" class="clicker" style="position: absolute; width: 300px; margin-left: 40%; margin-top: 17%;">     <!--[38]-->
+            <h1 style="position: absolute; margin-left: 10%; margin-top: 35%;" class="clicker">ТЫ</h1>      <!--[39]-->
+        </div>
+        <div class="dvor2" style="background-image: url(img/53.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/51.jpg" style="position: absolute; height: 150px; width: 400px; margin-left: 5%; margin-top: 40%;">
+            <img src="img/51.jpg" style="position: absolute; height: 150px; width: 400px; margin-left: 38%; margin-top: 40%;">
+            <img src="img/51.jpg" style="position: absolute; height: 150px; width: 400px; margin-left: 70%; margin-top: 40%;">
+            <img src="img/52-removebg.png" class="clicker" style="position: absolute; width: 200px; margin-left: 77%; margin-top: 21%;">    <!--[40]-->
+            <img src="img/52-removebg.png" class="clicker" style="position: absolute; width: 200px; margin-left: 45%; margin-top: 21%;">    <!--[41]-->
+            <img src="img/52-removebg.png" class="clicker" style="position: absolute; width: 200px; margin-left: 12%; margin-top: 21%;">    <!--[42]-->
+            <button style="position: absolute; margin-left: 14%; margin-top: 20%;">ПОДЪЕЗД №1</button>
+            <button style="position: absolute; margin-left: 47%; margin-top: 20%;">ПОДЪЕЗД №2</button>
+            <button style="position: absolute; margin-left: 79%; margin-top: 20%;">ПОДЪЕЗД №3</button>
+        </div>
+        <div class="podez1" style="background-image: url(img/55.jpg); background-size: 100% 100%; height: 760px;">
+            <h1 style="position: absolute; color: white; margin-left: 15%; margin-top: 20%;">Ты откуда, а с соседнего подъезда ну ка вали отсюда!</h1>
+            <button class="back">back</button>      <!--[b4]-->  
+        </div>
+        <div class="podez2" style="background-image: url(img/54.jpg); background-size: 100% 100%; height: 760px;">
+            <img src="img/52.jpg" class="clicker" style="height: 600px; position: absolute; margin-left: 35%; margin-top: 3%;">     <!--[43]-->
+            <button class="back">back</button>      <!--[b5]-->  
+        </div>
+        <div class="podez3" style="background-image: url(img/56.jpg); background-size: 100% 100%; height: 760px;">
+            <h1 style="position: absolute; margin-top: 3%; margin-left: 20%;">Опа ну ка поть сюды, ЭЭЭ! ты куда бежишь!</h1>
+            <button class="back">back</button>      <!--[b6]-->
+        </div>
+        <div class="domofon bg-warning" style="height: 850px;">
+            <div class="col-12" style="padding-left: 300px; padding-top: 30px;">
+                <div class="row">
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">1</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">2</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">3</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="parol text-center pt-2" style="font-size: 150px;">4</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="parol text-center pt-2" style="font-size: 150px;">5</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">6</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">7</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">8</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">9</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="parol text-center pt-2" style="font-size: 150px;">#</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="parol text-center pt-2" style="font-size: 150px;">0</h1>
+                    </div>
+                    <div class="col-3 border" style="height: 200px; width: 200px; background-color: gray;">
+                        <h1 class="red_parol text-center pt-2" style="font-size: 150px;">*</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="back">back</button>  
+        </div>
+        <div class="theend" style="background-color: black; height: 760px; background-size: 100% 100%;">
+            <h1 class="text-center text-white" style="font-size: 100px; position: absolute; margin-top: 18%; margin-left: 3%;">Это был сон ты проснулся)</h1>
+            <button class="back">MAIN MENU</button>     <!--[b7]-->
+        </div>    
+    </div>
+    <script type="text/javascript">
+    	let meny1 = document.querySelector(".meny1")
+    	let meny2 = document.querySelector(".meny2")
+        let home = document.querySelector(".home")
+        let buthroom = document.querySelector(".buthroom")
+        let shkaf = document.querySelector(".shkaf")
+        let classroom = document.querySelector(".classroom")
+        let game = document.querySelector(".game")
+        let domofon = document.querySelector(".domofon")
+        let podez2 = document.querySelector(".podez2")
+        let podez1 = document.querySelector(".podez1")
+        let podez3 = document.querySelector(".podez3")
+        let theend = document.querySelector(".theend")
+        let dvor = document.querySelector(".dvor")
+        let street = document.querySelector(".street") 
+        let lift = document.querySelector(".lift")
+        let rooma = document.querySelector(".rooma")
+        let dver = document.querySelector(".dver")
+        let dver2 = document.querySelector(".dver2")
+        let buthroom2 = document.querySelector(".buthroom2")              
+        let exit = document.querySelector(".exit")
+        let street2 = document.querySelector(".street2")
+        let dvor2 = document.querySelector(".dvor2")
+        let vibor = document.querySelector(".vibor")
+        let rakovina = document.querySelector(".rakovina")
+        let menyshka = document.querySelector(".menyshka")
+        let menyshka2 = document.querySelector(".menyshka2")
+        let domofon_btn = document.querySelector(".domofon_btn")
+        let menyshka3 = document.querySelector(".menyshka3")
+
+        let back = document.querySelectorAll(".back")
+        back[0].onclick = function(){
+        	buthroom.style.display = "none"
+        	home.style.display = "block"
+        }
+        back[1].onclick = function(){
+        	document.querySelector(".rakovina").style.display = "none"
+        	document.querySelector(".buthroom").style.display = "block"        	
+        }
+        back[2].onclick = function(){
+        	document.querySelector(".shkaf").style.display = "none"
+        	document.querySelector(".home").style.display = "block"        	
+        }
+        back[3].onclick = function(){
+            buthroom2.style.display = "none"
+            rooma.style.display = "block"
+        }
+        back[4].onclick = function(){
+            podez1.style.display = "none"
+            dvor2.style.display = "block"  
+        }
+        back[5].onclick = function(){
+            podez2.style.display = "none"
+            dvor2.style.display = "block"          
+        }
+        back[6].onclick = function(){
+            podez3.style.display = "none"
+            dvor2.style.display = "block"          
+        }
+        back[7].onclick = function(){
+            domofon.style.display = "none"
+            podez2.style.display = "block"  
+        }
+        back[8].onclick = function(){
+            location.reload()
+        }
+
+        let parol_score = 0
+        let parols = document.querySelectorAll(".parol")
+        for(let index = 0; index<4; index = index + 1){//цикл
+            parols[index].onclick = function(){
+                parol_score = parol_score + 1
+                parols[index].style.backgroundColor = "green"
+            }
+        }
+        
+        let red_parols = document.querySelectorAll(".red_parol")
+        for(let index = 0; index<8; index = index + 1){//цикл
+            red_parols[index].onclick = function(){
+                red_parols[index].style.backgroundColor = "red"
+                let hide = function() { 
+                    red_parols[index].style.backgroundColor = "gray"
+                }
+                setTimeout(hide,1000)
+            }
+        }
+
+
+        
+
+        
+        	
+         
+
+        
+        
+        let noyts = document.querySelectorAll(".noyt")
+        let interv = function(){
+            let index = Math.round(Math.random()*7)
+            noyts[index].style.display = "block"
+            setTimeout(function(){
+                noyts[index].style.display = "none"
+            },500)
+        }
+        let clear = setInterval(interv,800)
+
+        let points = 0
+
+        for(let index = 0; index<8; index = index + 1){//цикл
+            noyts[index].onclick = function(){
+                noyts[index].style.display = "none"
+                points = points + 1
+                document.querySelector(".points").innerHTML = points
+            }
+        }
+        
+
+
+        let car = ["нету времени","садись"]
+        let moneys = ["иди пешком",28,56]
+    	let clickers = document.querySelectorAll(".clicker")
+        clickers[0].onclick = function(){//meny
+            meny1.style.display = "none"
+            meny2.style.display = "block"
+        }
+        clickers[1].onclick = function(){//meny
+            meny2.style.display = "none"
+            home.style.display = "block"
+            menyshka.style.display = "block"
+            let vremya = 60
+            let seconds = function(){
+                vremya = vremya - 1
+                document.querySelector(".vremya").innerHTML = vremya
+            }
+            let clear1 = setInterval(seconds,1000)
+
+            let check = function(){
+                if(score>=8){//условие попроще сделать для детей больше 10 то вин
+                    alert("КРАСАВЧЕЕККК!!!");
+                    clearInterval(clear1)    
+                }else{
+                    alert("Открываем и включаем ноутбуки")
+                    clearInterval(clear1)
+                }
+                menyshka.style.display = "none"
+                classroom.style.display = "none"
+                game.style.display = "block"
+                menyshka3.style.display = "block"
+
+                
+                let vremya3 = 20
+                let seconds = function(){
+                    vremya3 = vremya3 - 1
+                    document.querySelector(".vremya3").innerHTML = vremya3
+                }
+                let clear3 = setInterval(seconds,1000)
+                let shtoto = function(){
+                    if(points>=10){
+                        alert("Ну все собирайся можешь уходить")
+                        clearInterval(clear)
+                        clearInterval(clear3)
+                    }
+                    else{
+                        alert("10 часов закрывайте и уходите")
+                        clearInterval(clear)
+                        clearInterval(clear3)
+                    }
+                    game.style.display = "none"
+                    menyshka3.style.display = "none"
+                    exit.style.display = "block"
+                }
+                setTimeout(shtoto, 20000)
+            }        
+            setTimeout(check, 60000)
+        }
+        clickers[2].onclick = function(){//выход из дома
+            home.style.display = "none"
+            dvor.style.display = "block"
+        }
+        clickers[3].onclick = function(){//sofa
+            home.style.display = "none"
+            vibor.style.display = "block"
+        }
+        clickers[4].onclick = function(){//ванная дверь
+            home.style.display = "none"
+            buthroom.style.display = "block"           
+        }
+        clickers[5].onclick = function(){//garderob
+        	home.style.display = "none"
+        	shkaf.style.display = "block"
+        }
+        clickers[6].onclick = function(){//mom
+            let mom = function(){
+                let rand = Math.random()*3
+                let round = Math.floor(rand)
+                return moneys[round]
+            }
+            alert(mom())
+            document.querySelector(".vibor").style.display = "none"
+            document.querySelector(".home").style.display = "block"
+        }
+        clickers[7].onclick = function(){//dad
+            let dad = function(){
+                let rand = Math.random()*3
+                let round = Math.floor(rand)
+                return car[round]
+            }
+            alert(dad())
+            document.querySelector(".vibor").style.display = "none"
+            document.querySelector(".home").style.display = "block"
+        }
+    	clickers[8].onclick = function(){
+    		buthroom.style.display = "none"
+    		rakovina.style.display = "block"
+    	}
+        clickers[13].onclick = function(){
+            clickers[13].style.display = "none"
+        }
+        clickers[14].onclick = function(){
+            clickers[14].style.display = "none"
+        }
+        clickers[15].onclick = function(){
+            clickers[15].style.display = "none"
+        }
+        clickers[16].onclick = function(){
+            clickers[16].style.display = "none"
+        }
+        clickers[17].onclick = function(){
+            dvor.style.display = "none"
+            street.style.display = "block"
+        }
+        clickers[18].onclick = function(){
+            dvor.style.display = "none"
+            street.style.display = "block"
+        }
+        clickers[19].onclick = function(){
+            street.style.display = "none"
+            lift.style.display = "block"
+        }
+        clickers[20].onclick = function(){
+            street.style.display = "none"
+            lift.style.display = "block"
+        }
+        clickers[21].onclick = function(){
+            lift.style.display = "none"
+            rooma.style.display = "block"
+        }
+        clickers[22].onclick = function(){
+            alert("да это я")
+        }
+        clickers[23].onclick = function(){
+            lift.style.display = "none"
+            rooma.style.display = "block"
+        }
+        clickers[24].onclick = function(){
+            alert("ты слишком долго вызывал неработабщий лифт")
+        }
+        clickers[25].onclick = function(){
+            alert("ты пытался открыть дверь лифта и провалился в шахту к счастью это был 1 этаж") 
+        }
+        clickers[26].onclick = function(){
+            rooma.style.display = "none"
+            dver.style.display = "block"
+        }
+        clickers[27].onclick = function(){
+            rooma.style.display = "none"
+            dver2.style.display = "block"
+        }
+        clickers[29].onclick = function(){
+            dver.style.display = "none"
+            classroom.style.display = "block"
+        }
+        clickers[30].onclick = function(){
+            dver2.style.display = "none"
+            buthroom2.style.display = "block"
+        }
+        clickers[33].onclick = function(){
+            alert("ты устал и заблудился в этих бесконечных лестницах даже смотря что ты находишься всеголишь на 4 этаже и спустился на 1 ступеньку еще вспотел ЗАНИМАЙСЯ СПОРТОМ!")
+        }
+        clickers[34].onclick = function(){
+            exit.style.display = "none"
+            street2.style.display = "block"
+        }
+        clickers[35].onclick = function(){
+            alert("ты слишком долго вызывал неработающий лифт")
+        }
+        clickers[37].onclick = function(){
+            street2.style.display = "none"
+            dvor2.style.display = "block"
+        }
+        clickers[38].onclick = function(){
+            street2.style.display = "none"
+            dvor2.style.display = "block"
+        }
+        clickers[39].onclick = function(){
+            alert("да это я))")
+        }
+        clickers[40].onclick = function(){
+            dvor2.style.display = "none"
+            podez3.style.display = "block"
+        }
+        clickers[41].onclick = function(){
+            dvor2.style.display = "none"
+            podez2.style.display = "block"
+        }
+        clickers[42].onclick = function(){
+            dvor2.style.display = "none"
+            podez1.style.display = "block"
+        }
+        clickers[43].onclick = function(){
+            podez2.style.display = "none"
+            domofon.style.display = "block"
+            menyshka2.style.display = "block"   
+
+            let vremya2 = 15
+            let seconds2 = function(){
+                vremya2 = vremya2 - 1
+                document.querySelector(".vremya2").innerHTML = vremya2
+            }
+            let clear2 = setInterval(seconds2,1000)
+
+            let proverka = function() {//создание функции
+                if(parol_score>=4 && parol_score==4){
+                    alert("Поздравляем выпрошди нашу игру, спасибо за прохождение и пожалуйста оцените нашу игру на 5 звезд! ;)")
+                    domofon.style.display = "none"
+                    theend.style.display = "block"
+                    clearInterval(clear2)
+                }
+                else{
+                    alert("Попробуй заново")
+                    domofon.style.display = "none"
+                    menyshka2.style.display = "none"
+                    podez2.style.display = "block"
+                    clearInterval(clear2)
+                    document.querySelector(".domofon").location.reload(".domofon")
+                }
+                menyshka2.style.display = "none"
+            }
+            setTimeout(proverka,15000)
+        }
+        
+        
+        
+
+        
+        let score = 0
+        let close_noyt = document.querySelectorAll(".close_noyt")
+        let little_noyt = document.querySelectorAll(".little_noyt")
+        let sredni_noyt = document.querySelectorAll(".sredni_noyt")
+        let open_noyt = document.querySelectorAll(".open_noyt")
+
+        for(let index = 0; index<8; index = index + 1){//цикл
+            close_noyt[index].onclick = function(){
+                close_noyt[index].style.display = "none"
+                little_noyt[index].style.display = "block"
+            }
+        }
+        for(let index = 0; index<8; index = index + 1){//цикл
+            little_noyt[index].onclick = function(){
+                little_noyt[index].style.display = "none"
+                sredni_noyt[index].style.display = "block"
+            }
+        }
+        for(let index = 0; index<8; index = index + 1){//цикл
+            sredni_noyt[index].onclick = function(){
+                sredni_noyt[index].style.display = "none"
+                open_noyt[index].style.display = "block"
+                score = score + 1
+                document.querySelector(".score").innerHTML = score
+            }
+        }
+
+        
+
+
+        
+
+        document.querySelector(".meny2").style.display = "none"
+        document.querySelector(".home").style.display = "none"
+        document.querySelector(".buthroom").style.display = "none"
+        document.querySelector(".shkaf").style.display = "none"
+        document.querySelector(".classroom").style.display = "none"
+        document.querySelector(".game").style.display = "none"
+        document.querySelector(".domofon").style.display = "none"
+        document.querySelector(".podez2").style.display = "none"
+        document.querySelector(".podez1").style.display = "none"
+        document.querySelector(".podez3").style.display = "none"
+        document.querySelector(".theend").style.display = "none"
+        document.querySelector(".dvor").style.display = "none"
+        document.querySelector(".street").style.display = "none" 
+        document.querySelector(".lift").style.display = "none"
+        document.querySelector(".rooma").style.display = "none"
+        document.querySelector(".dver").style.display = "none"
+        document.querySelector(".dver2").style.display = "none"
+        document.querySelector(".buthroom2").style.display = "none"              
+        document.querySelector(".exit").style.display = "none"
+        document.querySelector(".street2").style.display = "none"
+        document.querySelector(".dvor2").style.display = "none"
+        document.querySelector(".vibor").style.display = "none"
+        document.querySelector(".rakovina").style.display = "none"
+        document.querySelector(".menyshka2").style.display = "none"
+        document.querySelector(".menyshka").style.display = "none"
+        document.querySelector(".menyshka3").style.display = "none"
+    </script>	
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
